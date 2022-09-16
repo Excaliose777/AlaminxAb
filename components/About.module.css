@@ -1,0 +1,19 @@
+.main{
+    padding: 2rem 3rem;
+    margin-bottom: 5rem;
+}
+
+.main h1{
+    font-size: 3rem;
+  background:linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+    /* font-family: "typewriter"; */
+}
+
+.main p{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+    /* padding: 0 10rem; */
+}

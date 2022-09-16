@@ -1,0 +1,152 @@
+.main{
+  padding: 2rem 3rem;
+  display: flex;
+  margin-bottom: 1rem;
+  /* height: 100vh; */
+}
+
+.header{
+  display: flex;
+  font-family: "Typewriter";
+  /* font-size: large; */
+}
+
+.headerOptions{
+  display: flex;
+}
+
+.header h2{
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.header h4{
+  margin: 1rem;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+
+.mainBody{
+  margin-top: 6rem;
+  padding: 0 2rem;
+  display: flex;
+}
+
+.mainBody h1{
+  font-size: 4rem;
+  background:linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-family: "Typewriter"; */
+}
+
+.mainBody p{
+  /* font-family: "typewriter"; */
+  font-size: large;
+}
+
+.mainBody button{
+  /* border-radius: 20px; */
+  padding: 1rem 2rem;
+  color: black;
+  /* background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%); */
+  margin-top: 2rem;
+  margin-right: 1rem;
+  font-family: "Typewriter";
+  background-color: transparent;
+  color: white;
+  border: 2px solid #89f7fe;
+  font-size: medium;
+  cursor: pointer;
+  transition: 0.5s ease-out;
+}
+
+.mainBody button:hover{
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  color: black;
+}
+
+.imageContainer{
+  border-radius: 20px;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  opacity: 0.8;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer:hover{
+  opacity: 1;
+}
+
+.imageContainer img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.containerImg{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+
+.secondMain{
+  padding: 3rem 4rem;
+  height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+
+
+@media screen and (max-width:1200px) {
+  .main{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mainBody{
+    flex-direction: column;
+  }
+
+  .imageContainer{
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+
+  .mainBody{
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .header{
+    flex-direction: column;
+  }
+
+  .headerOptions{
+    display: flex;
+  }
+
+  .mainBody h1{
+    font-size: 3rem;
+  }
+
+  .mainBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    border-top: 1px solid white;
+  }
+}
