@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "../components/Project.module.css"
 import {FcBinoculars} from "react-icons/fc"
-import {GoCode} from "react-icons/Go"
+import {GoCode} from "react-icons/go"
 
 function Projects() {
   return (
