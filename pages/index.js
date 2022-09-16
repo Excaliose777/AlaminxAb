@@ -28,8 +28,8 @@ export default function Home() {
           </div>
           <div className={styles.mainBody}>
             <div>
-              <h1>Hello , I&apos;m Alamin Abubakar and I&apos;m a Frontend Developer</h1>
-              <h2>A Front-End Dev with specialization in Blockchain Development and also a Technical Writer</h2>
+              <h1>Hello, I&apos;m Alamin Abubakar and I&apos;m a Frontend Developer</h1>
+              <h2>👋 A Front-End Dev with specialization in Blockchain Development and also a Technical Writer</h2>
               <p>On a mission to fully transition into a Full Stack Blockchain Developer</p>
               <p>Please leave a feedback too, that will be appreciated</p>
               <button><a href='#tech'>CONTACT</a></button>
