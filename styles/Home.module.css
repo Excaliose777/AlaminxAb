@@ -135,6 +135,8 @@
 
   .header h2{
     margin: 0.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
   }
 
   .header h4{
