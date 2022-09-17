@@ -32,6 +32,16 @@
     opacity: 0.8;
 }
 
+.projectLinks{
+    display: flex;
+}
+
+.projectLinks a{
+    margin-left: 1rem;
+    font-weight: bold;
+    border-bottom: 1px solid ;
+}
+
 .codeIcon{
     vertical-align: bottom;
 }
