@@ -16,13 +16,17 @@
 
 .title {
     cursor: pointer;
+    
 }
 
 .title h1{
-    
+    font-size: 3rem;
+    font-family: "agharti";
+    border-bottom: 1px solid #66a6ff;
   background:linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 
 .footer div {

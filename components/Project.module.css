@@ -5,6 +5,7 @@
 
 .main h1{
     font-size: 3rem;
+    font-family: "agharti";
     background:linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;

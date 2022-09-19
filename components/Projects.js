@@ -6,7 +6,7 @@ import {GoCode} from "react-icons/go"
 function Projects() {
   return (
     <div className={styles.main} id="projects">
-      <h1>II. Projects</h1>
+      <h1>II. PROJECTS</h1>
       <h3>These are a few of the Projects I have been cooking 👨🏽‍🍳</h3>
       <div className={styles.projectContainer}>
         <div className={styles.projects}>
