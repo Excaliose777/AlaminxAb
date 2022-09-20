@@ -6,7 +6,7 @@ function Technologies() {
     <div className={styles.main} id="tech">
       <div className={styles.techTitle}>
         <h1>III. TECH STACK </h1>
-        <img src="/laptop.webp" width={100} height={100}/>
+        <img src="/laptop.png" width={100} height={100}/>
       </div>
       <p>I&apos;ve worked with a number of Technologies and Tech Stack over time</p>
       <p>My Tech stack include but not limited to...</p>
@@ -15,7 +15,7 @@ function Technologies() {
 
       <div className={styles.techTitle}>
         <h1>IV. INTERESTED ALREADY ?</h1>
-        <img src="/smiling.webp" width={100} height={100}/>
+        <img src="/smile.png" width={100} height={100}/>
       </div>
       <p>I am currently looking for new Opportunities in order to grow and improve on my skills and tech stack with real world applications and Technologies</p>
       <p>Got a question? or Looking to reach out? Please don&apos;t hesitate </p>

@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>AlaminxAb portfolio</title>
         <meta name="description" content="AlaminxAb Portfolio" />
-        <link rel="icon" href="/laptop.webp" />
+        <link rel="icon" href="/laptop.png" />
       </Head>
 
       <div className={styles.main}>
