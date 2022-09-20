@@ -3,6 +3,15 @@
     margin-bottom: 5rem;
 }
 
+.techTitle{
+  display: flex;
+  align-items: center;  
+}
+
+.techTitle img{
+  margin-top: 2rem;
+}
+
 .main h1{
   display: flex;
   align-items: center;
