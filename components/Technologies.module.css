@@ -8,9 +8,9 @@
   align-items: center;  
 }
 
-/* .techTitle img{
+.techTitle img{
   margin-top: 2rem;
-} */
+}
 
 .main h1{
   display: flex;
@@ -18,9 +18,10 @@
     font-size: 3rem;
     margin-top: 5rem;
     font-family: "agharti";
-    background:linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    color: #89f7fe;
+    /* background:linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 
 .main button{
