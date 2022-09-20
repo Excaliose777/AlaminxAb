@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "../components/Footer.module.css"
-import {TiDeviceLaptop, TiSocialLinkedin, TiSocialGithubCircular, TiWorld, TiSocialTwitter} from "react-icons/ti"
+import {TiDeviceLaptop, TiSocialLinkedin, TiSocialGithubCircular, TiWorld, TiSocialTwitter, TiSocialGithub} from "react-icons/ti"
 
 function Footer() {
   return (
