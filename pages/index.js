@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>AlaminxAb portfolio</title>
         <meta name="description" content="AlaminxAb Portfolio" />
-        <link rel="icon" href="/spiral.png" />
+        <link rel="icon" href="/laptop.webp" />
       </Head>
 
       <div className={styles.main}>
@@ -22,7 +22,7 @@ export default function Home() {
             <div className={styles.headerOptions}>
               <h4><a href='#about'>ABOUT</a></h4>
               <h4><a href='#projects'>PROJECTS</a></h4>
-              <h4><a href='#tech'>TECHNOLOGIES</a></h4>
+              <h4><a href='#tech'>TECH STACK</a></h4>
               <h4><a href='#footer'>CONTACT</a></h4>
             </div>
           </div>
