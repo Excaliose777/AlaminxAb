@@ -32,7 +32,7 @@ export default function Home() {
               <h2>👋 A Front-End Dev with specialization in Blockchain Development and also a Technical Writer</h2>
               <p>On a mission to fully transition into a Full Stack Blockchain Developer</p>
               <p>Please leave a feedback too, that will be appreciated</p>
-              <button><a href='#tech'>CONTACT</a></button>
+              <button><a href='#footer'>CONTACT</a></button>
               <button><a href='#about'>LEARN MORE</a></button>
             </div>
             <div className={styles.imageContainer}>

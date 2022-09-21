@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "../components/Footer.module.css"
+import Link from "next/link"
 import {TiDeviceLaptop, TiSocialLinkedin, TiSocialGithubCircular, TiWorld, TiSocialTwitter, TiSocialGithub} from "react-icons/ti"
 
 function Footer() {
@@ -7,8 +8,8 @@ function Footer() {
     <>
         <div className = {styles.footer} id="footer">
             <div className = {styles.title}>
-            <h1> ALAMINXAB</h1>
-            <TiDeviceLaptop size={55} color="#66a6ff"/>
+                <Link href="/" passhref><h1> ALAMINXAB</h1></Link>
+                <TiDeviceLaptop size={55} color="#66a6ff"/>
             </div>
             <div className={styles.footer_links}>
                 <h4>Contact</h4>
